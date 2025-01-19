@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger app counter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="main-window">
+        <div class="main-inner">
+            <h2 class="main-title">COVID19: Shop customer count</h2>
+            <h3 class="main-pass-number" id="count-el">0</h3>
+            <div class="main-btx-section">
+                <button class="main-buttons" id="btn-add" onclick="increment()">+</button>     
+                <button class="main-buttons" id="btn-decrease" onclick="decrement()"> - </button>
+                <button class="main-buttons" id="btn-save" onclick="save()">Save</button> 
+
+            </div>
+            <p class="main-enteries" id="save-el">Previous enteries:</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>v

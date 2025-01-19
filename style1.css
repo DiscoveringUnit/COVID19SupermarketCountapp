@@ -1,0 +1,106 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+body {
+    background-image: url("store1.png"); 
+    background-size: cover; 
+    background-position: center; 
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 90px;
+}
+
+.main-window {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #ffffff;
+    background-color: #4D4237;
+    border-radius: 10px;
+    margin: 280px auto 0 auto;
+    padding-top: 30px;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.main-btx-section {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#btn-add{
+    background-color: #008000;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+#btn-add:hover{
+    background-color: #5f795f;
+    border: none;
+    font-size: 20px;
+}
+
+
+#btn-save{
+    background-color: rgb(148, 143, 161);
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#btn-save:hover{
+    background-color: #c7c7c7;
+    border: none;
+    font-size: 20px;
+}
+
+#btn-decrease {
+    background-color: red;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+#btn-decrease:hover {
+    background-color: #ff8f8f;
+    border: none;
+    font-size: 20px;
+}
+
+
+
+.main-buttons{
+    width: 130px;
+    height: 50px;
+    border-radius: 15%;
+    color: white;
+    border: white 1px solid;
+}
+
+.main-pass-number{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-enteries{
+    color: white;
+    text-align: center;
+}
+
+.main-inner{
+    margin-top: 59px;
+}
